@@ -1,0 +1,7 @@
+# New dependencies introduced by the Task 1 / Task 2 extension.
+# Everything inference_server.py already imports (fastapi, uvicorn, numpy,
+# scipy, onnxruntime, pydantic) is unchanged -- append these to whatever
+# requirements file/environment already serves inference_server.py.
+
+psycopg2-binary>=2.9
+python-dotenv>=1.0
