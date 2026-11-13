@@ -3,7 +3,7 @@
 A focused extension for an AI-enabled industrial induction-motor Digital Twin inference service. This repository contains the supplied FastAPI inference server and an additive PostgreSQL persistence and measurement-uncertainty layer.
 <div align="center">
 ![Digital Twin Architecture](assets/DT1.jpeg)
-</div>
+   </div>
 ## Scope
 
 The extension is designed to:
