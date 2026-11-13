@@ -1,7 +1,9 @@
 # CSIR-NPL Digital Twin: Telemetry Persistence & Uncertainty Extension
 
 A focused extension for an AI-enabled industrial induction-motor Digital Twin inference service. This repository contains the supplied FastAPI inference server and an additive PostgreSQL persistence and measurement-uncertainty layer.
+<div align="center">
 ![Digital Twin Architecture](assets/DT1.jpeg)
+</div>
 ## Scope
 
 The extension is designed to:
@@ -9,6 +11,11 @@ The extension is designed to:
 - Track Type A and Type B measurement uncertainty and calculate combined/expanded uncertainty.
 - Keep database writes in a FastAPI background task so a slow database write does not delay the prediction response.
 - Degrade gracefully when PostgreSQL is unavailable: inference can continue while dataset logging is disabled.
+
+## Project Architecture
+<div align="center">
+![Digital Twin Architecture](assets/DT2.jpeg)
+</div>
 
 ## Repository contents
 
@@ -19,6 +26,11 @@ The extension is designed to:
 - `.env.example` — environment-variable template; contains placeholders only.
 - `requirements-additions.txt` — additional dependencies for this extension.
 - `README_EXTENSION.md` — detailed implementation notes, design decisions and verification procedure.
+
+## RUL Prediction
+<div align="center">
+![Digital Twin Architecture](assets/DT3.jpeg)
+</div>
 
 ## Important scope and verification notes
 
@@ -48,14 +60,12 @@ Do not describe the system as fully deployed, fully integrated, or production-va
 
 The application attempts to initialize the PostgreSQL schema at startup. If PostgreSQL is unavailable, the implementation notes state that inference should remain available with dataset logging disabled.
 
-## Security and publication
-
-This repository was prepared from files supplied for portfolio work. Before making it public, confirm that CSIR-NPL and any project partners permit publication of the source code, architecture details, database schema and project description. Remove proprietary data, credentials, internal endpoints, private model files and any restricted documentation.
-
 ## Attribution and contribution
 
 This repository documents a technical extension involving telemetry persistence and uncertainty estimation. The portfolio description should distinguish the work personally designed or implemented from work performed by the wider project team, project lead, mentors or AI-assisted development.
 
 ## Status
-
 Prototype / extension. End-to-end validation with the original model artifacts and a live PostgreSQL instance remains to be completed unless separately verified.
+<div align="center">
+![Digital Twin Architecture](assets/DT4.jpeg)
+</div>
