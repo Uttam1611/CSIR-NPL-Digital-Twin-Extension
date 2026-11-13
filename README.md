@@ -1,7 +1,7 @@
 # CSIR-NPL Digital Twin: Telemetry Persistence & Uncertainty Extension
 
 A focused extension for an AI-enabled industrial induction-motor Digital Twin inference service. This repository contains the supplied FastAPI inference server and an additive PostgreSQL persistence and measurement-uncertainty layer.
-![Digital Twin Architecture](assets/DT1.JPEG)
+![Digital Twin Architecture](assets/DT1.jpeg)
 ## Scope
 
 The extension is designed to:
