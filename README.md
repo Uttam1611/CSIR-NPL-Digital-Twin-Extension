@@ -1,9 +1,9 @@
 # CSIR-NPL Digital Twin: Telemetry Persistence & Uncertainty Extension
 
 A focused extension for an AI-enabled industrial induction-motor Digital Twin inference service. This repository contains the supplied FastAPI inference server and an additive PostgreSQL persistence and measurement-uncertainty layer.
-<div align="center">
-![Digital Twin Architecture](assets/DT1.jpeg)
-   </div>
+<p align="center">
+  <img src="assets/DT1.jpeg" alt="Digital Twin Architecture" width="800">
+</p>
 ## Scope
 
 The extension is designed to:
@@ -13,9 +13,9 @@ The extension is designed to:
 - Degrade gracefully when PostgreSQL is unavailable: inference can continue while dataset logging is disabled.
 
 ## Project Architecture
-<div align="center">
-![Digital Twin Architecture](assets/DT2.jpeg)
-</div>
+<p align="center">
+  <img src="assets/DT2.jpeg" alt="Project Architecture" width="800">
+</p>
 
 ## Repository contents
 
@@ -28,9 +28,9 @@ The extension is designed to:
 - `README_EXTENSION.md` — detailed implementation notes, design decisions and verification procedure.
 
 ## RUL Prediction
-<div align="center">
-![Digital Twin Architecture](assets/DT3.jpeg)
-</div>
+<p align="center">
+  <img src="assets/DT3.jpeg" alt="RUL Prediction" width="800">
+</p>
 
 ## Important scope and verification notes
 
@@ -66,6 +66,6 @@ This repository documents a technical extension involving telemetry persistence 
 
 ## Status
 Prototype / extension. End-to-end validation with the original model artifacts and a live PostgreSQL instance remains to be completed unless separately verified.
-<div align="center">
-![Digital Twin Architecture](assets/DT4.jpeg)
-</div>
+<p align="center">
+  <img src="assets/DT4.jpeg" alt="RUL Prediction" width="800">
+</p>
